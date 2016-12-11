@@ -1,0 +1,4 @@
+submissions/codecrawlers/problem2.cpp: In function ‘int main()’:
+submissions/codecrawlers/problem2.cpp:16:23: warning: format ‘%ld’ expects argument of type ‘long int*’, but argument 2 has type ‘long long unsigned int*’ [-Wformat=]
+         scanf("%ld",&N);
+                       ^

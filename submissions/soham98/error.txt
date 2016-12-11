@@ -1,0 +1,51 @@
+submissions/soham98/problem1.cpp: In function ‘int main()’:
+submissions/soham98/problem1.cpp:12:9: warning: ‘char* gets(char*)’ is deprecated [-Wdeprecated-declarations]
+         gets(x[i]);
+         ^
+In file included from /usr/include/c++/5/cstdio:42:0,
+                 from /usr/include/c++/5/ext/string_conversions.h:43,
+                 from /usr/include/c++/5/bits/basic_string.h:5249,
+                 from /usr/include/c++/5/string:52,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from submissions/soham98/problem1.cpp:1:
+/usr/include/stdio.h:638:14: note: declared here
+ extern char *gets (char *__s) __wur __attribute_deprecated__;
+              ^
+submissions/soham98/problem1.cpp:12:9: warning: ‘char* gets(char*)’ is deprecated [-Wdeprecated-declarations]
+         gets(x[i]);
+         ^
+In file included from /usr/include/c++/5/cstdio:42:0,
+                 from /usr/include/c++/5/ext/string_conversions.h:43,
+                 from /usr/include/c++/5/bits/basic_string.h:5249,
+                 from /usr/include/c++/5/string:52,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from submissions/soham98/problem1.cpp:1:
+/usr/include/stdio.h:638:14: note: declared here
+ extern char *gets (char *__s) __wur __attribute_deprecated__;
+              ^
+submissions/soham98/problem1.cpp:12:18: warning: ‘char* gets(char*)’ is deprecated [-Wdeprecated-declarations]
+         gets(x[i]);
+                  ^
+In file included from /usr/include/c++/5/cstdio:42:0,
+                 from /usr/include/c++/5/ext/string_conversions.h:43,
+                 from /usr/include/c++/5/bits/basic_string.h:5249,
+                 from /usr/include/c++/5/string:52,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from submissions/soham98/problem1.cpp:1:
+/usr/include/stdio.h:638:14: note: declared here
+ extern char *gets (char *__s) __wur __attribute_deprecated__;
+              ^
+/tmp/cciYCsAn.o: In function `main':
+problem1.cpp:(.text+0x5d): warning: the `gets' function is dangerous and should not be used.

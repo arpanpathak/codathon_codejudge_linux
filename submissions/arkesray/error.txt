@@ -1,0 +1,41 @@
+submissions/arkesray/problem1.cpp: In function ‘int main()’:
+submissions/arkesray/problem1.cpp:23:17: error: invalid conversion from ‘void*’ to ‘char*’ [-fpermissive]
+    line = calloc(1,10000*sizeof(char));
+                 ^
+submissions/arkesray/problem1.cpp:31:23: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘char**’ [-Wformat=]
+         scanf("%s", Si);
+                       ^
+submissions/arkesray/problem1.cpp:33:24: error: cannot convert ‘char**’ to ‘const char*’ for argument ‘1’ to ‘size_t strlen(const char*)’
+         len = strlen(Si);
+                        ^
+submissions/arkesray/problem1.cpp:37:25: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+             if(Si[j] == '$' )
+                         ^
+submissions/arkesray/problem1.cpp:43:25: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+             if(Si[j] == ' ')
+                         ^
+submissions/arkesray/problem1.cpp:46:25: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+             if(Si[j] >= '0' && Si[j] <= '9' && (start == true))
+                         ^
+submissions/arkesray/problem1.cpp:46:41: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+             if(Si[j] >= '0' && Si[j] <= '9' && (start == true))
+                                         ^
+submissions/arkesray/problem1.cpp:48:32: error: invalid conversion from ‘char*’ to ‘char’ [-fpermissive]
+                 value[x] = Si[j];
+                                ^
+submissions/arkesray/problem1.cpp:53:20: error: ‘string’ was not declared in this scope
+         line[i] = (string) value;
+                    ^
+submissions/arkesray/problem1.cpp:58:26: warning: format ‘%s’ expects argument of type ‘char*’, but argument 2 has type ‘int’ [-Wformat=]
+     printf("$%s", line[b]);
+                          ^
+submissions/arkesray/problem1.cpp:61:11: error: ‘getch’ was not declared in this scope
+     getch();
+           ^
+submissions/arkesray/problem1.cpp: At global scope:
+submissions/arkesray/problem1.cpp:65:5: error: expected unqualified-id before ‘return’
+     return 0;
+     ^
+submissions/arkesray/problem1.cpp:66:1: error: expected declaration before ‘}’ token
+ }
+ ^

@@ -1,0 +1,4 @@
+submissions/Tonmoy/problem3.cpp: In function ‘int main()’:
+submissions/Tonmoy/problem3.cpp:18:29: warning: format ‘%ld’ expects argument of type ‘long int*’, but argument 3 has type ‘long long int*’ [-Wformat=]
+         scanf("%d %ld",&a,&b);
+                             ^

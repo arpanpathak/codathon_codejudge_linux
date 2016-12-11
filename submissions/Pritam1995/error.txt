@@ -1,0 +1,10 @@
+submissions/Pritam1995/problem1.java:27: error: <identifier> expected
+					while(str1.charAt(k)=='0' || str1.charAt(k)=='1' || str1.charAt(k)=='2' || str1.charAt(k)=='3' || str1.charAt(k)=='4' || str1.char(k)=='5' || str1.charAt(k)=='6' || str1.charAt(k)=='7' || str1.charAt(k)=='8' || str1.charAt(k)=='9' || str1.charAt(k)==' ')     
+					                                                                                                                              ^
+submissions/Pritam1995/problem1.java:27: error: not a statement
+					while(str1.charAt(k)=='0' || str1.charAt(k)=='1' || str1.charAt(k)=='2' || str1.charAt(k)=='3' || str1.charAt(k)=='4' || str1.char(k)=='5' || str1.charAt(k)=='6' || str1.charAt(k)=='7' || str1.charAt(k)=='8' || str1.charAt(k)=='9' || str1.charAt(k)==' ')     
+					                                                                                                                                                                                                                                       ^
+submissions/Pritam1995/problem1.java:27: error: ';' expected
+					while(str1.charAt(k)=='0' || str1.charAt(k)=='1' || str1.charAt(k)=='2' || str1.charAt(k)=='3' || str1.charAt(k)=='4' || str1.char(k)=='5' || str1.charAt(k)=='6' || str1.charAt(k)=='7' || str1.charAt(k)=='8' || str1.charAt(k)=='9' || str1.charAt(k)==' ')     
+					                                                                                                                                                                                                                                                             ^
+3 errors

@@ -1,0 +1,10 @@
+submissions/gurudevWarriors/problem4.java:10: error: ')' expected
+        while(t-- 0) {
+                 ^
+submissions/gurudevWarriors/problem4.java:10: error: not a statement
+        while(t-- 0) {
+                  ^
+submissions/gurudevWarriors/problem4.java:10: error: ';' expected
+        while(t-- 0) {
+                   ^
+3 errors

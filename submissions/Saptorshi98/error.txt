@@ -1,0 +1,7 @@
+submissions/Saptorshi98/problem1.cpp: In function ‘int main()’:
+submissions/Saptorshi98/problem1.cpp:12:14: error: expected primary-expression before ‘)’ token
+   if(si[i]==$);
+              ^
+submissions/Saptorshi98/problem1.cpp:22:8: error: ‘getch’ was not declared in this scope
+  getch();
+        ^
